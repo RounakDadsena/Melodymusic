@@ -1,0 +1,25 @@
+# Add 'repo' label to any root file changes
+repo:
+- ./*
+
+# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+source:
+- src/**/*
+
+music-cmds:
+- src/music-cmds/*.js'
+
+fun-cmds: 
+- src/fun-cmds/*.js
+
+misc-cmds:
+- src/misc-cmds/*.js
+
+core:
+- src/*.js
+
+utils:
+- src/utils/*.js
+
+events:
+- src/events/*.js
